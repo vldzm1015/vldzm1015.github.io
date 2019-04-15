@@ -3,7 +3,7 @@ layout: post
 title:  "hello !!!"
 date:   2019-04-15 15:57:00
 categories: daily
-tags: daily, welcome
+tags: daily
 author: ehan831
 mathjax: true
 ---
