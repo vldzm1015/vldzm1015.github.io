@@ -29,7 +29,7 @@ SHOW VARIABLES LIKE "c%";
 
 하면 다음과 같은 결과물을 볼 수 있다.
 
-<img src="https://github.com/ehan831/ehan831.github.io/blob/master/assets/img/180827_characterset/cs5.png?raw=true" weight="50%">
+<img src="https://github.com/ehan831/ehan831.github.io/blob/master/assets/img/2019_04/cs5.png?raw=true" weight="50%">
 <br>
 <br>
 
@@ -43,9 +43,7 @@ SHOW VARIABLES LIKE "c%";
 * database의 전체에 적용되어 있는 character set과는 별개로 테이블의 컬럼마다 존재하고 있다.
 <br>
 
-* workbench를 사용해서 확인해보면 다음과 같이 확인 가능하다. 해당 테이블 선택 후 i 클릭
-
-<img src="https://github.com/ehan831/ehan831.github.io/blob/master/assets/img/180827_characterset/cs1.png?raw=true">
+* workbench를 사용해서 확인해보자. 해당 테이블 선택 후 i 아이콘 클릭
 <br>
 
 * 해당 정보를 조회하는 쿼리는 다음과 같다.
@@ -99,6 +97,6 @@ SHOW CHARACTER SET;
 ```
 <br>
 
-<img src="https://github.com/ehan831/ehan831.github.io/blob/master/assets/img/180827_characterset/cs3.png?raw=true">
+<img src="https://github.com/ehan831/ehan831.github.io/blob/master/assets/img/2019_04/cs3.png?raw=true">
 
 ## 쨔쟌. 여기까지 했는데도 계속 문제가 발생한다면, character set 말고 다른 부분을 고민해봐야 될 차례!! 
