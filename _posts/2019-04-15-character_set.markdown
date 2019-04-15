@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "mysql column character set !!!"
+title:  "mysql column character set"
 date:   2019-04-15 17:00:01
 categories: database
 tags: database db mysql characterset column
