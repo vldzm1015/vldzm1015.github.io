@@ -29,7 +29,7 @@ SHOW VARIABLES LIKE "c%";
 
 하면 다음과 같은 결과물을 볼 수 있다.
 
-<img src="https://github.com/ehan831/ehan831.github.io/blob/master/assets/img/2019_04/cs5.png?raw=true" weight="50%">
+<img src="https://github.com/ehan831/ehan831.github.io/blob/master/assets/img/2019_04/cs5.png?raw=true" weight="30%">
 <br>
 <br>
 
