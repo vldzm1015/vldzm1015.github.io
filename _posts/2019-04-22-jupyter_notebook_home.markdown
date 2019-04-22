@@ -28,7 +28,7 @@ username/.jupyter/jupyter_notebook_config.py 파일이 만들어진다.
 
 ## 2. jupyter_notebook_config.py 에서 홈 경로 바꾸기
 ---
-![config.py](https://blog.naver.com/PostList.nhn?blogId=ehan831&widgetTypeCall=true&directAccess=true#)
+![config.py](http://blog.naver.com/PostList.nhn?blogId=ehan831&widgetTypeCall=true&directAccess=true#)
 
 214번째 줄에서 
 주석 # 삭제하고
