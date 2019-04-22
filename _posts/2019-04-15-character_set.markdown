@@ -12,11 +12,11 @@ mathjax: true
 
 * Mysql에 csv파일로 데이터를 import 할 때, 제대로 한글 데이터가 들어가지 않는 경우가 종종 있다.
 이럴 때는 보통 다음의 3가지를 확인해보아야 한다.
-
+```
         1. csv 인코딩이 제대로 되었는지(특히 맥에서는)
         2. 데이터베이스의 character set
         3. 해당 테이블-컬럼의 character set
-
+```
 * 1번 문제: 해당 문제의 경우는, 다른 텍스트 에디터를 사용해서 utf8로 인코딩해주면 해결됨
 https://stackoverflow.com/questions/4221176/excel-to-csv-with-utf8-encoding
 해당 링크를 참조해보자. 오래된 글이지만 여전히 맥에서는 문제가 되는 부분이다.
