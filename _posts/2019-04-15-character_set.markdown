@@ -17,6 +17,8 @@ mathjax: true
         2. 데이터베이스의 character set
         3. 해당 테이블-컬럼의 character set
 ```
+
+
 * 1번 문제: 해당 문제의 경우는, 다른 텍스트 에디터를 사용해서 utf8로 인코딩해주면 해결됨
 https://stackoverflow.com/questions/4221176/excel-to-csv-with-utf8-encoding
 해당 링크를 참조해보자. 오래된 글이지만 여전히 맥에서는 문제가 되는 부분이다.
@@ -33,9 +35,11 @@ SHOW VARIABLES LIKE "c%";
 <br>
 <br>
 
+
 * csv 파일의 character set을 확인했고, 데이터베이스 설정도 확인했는데 한글 데이터가 제대로 import 안된다면 다음의 문제를 확인할 차례이다. 3번 문제!! 컬럼의 character set !!
 <br>
 <br>
+
 
 ## Mysql column character set & collation
 <br>
@@ -64,6 +68,7 @@ ALTER TABLE {tablename} MODIFY {col name} {col type} CHARACTER SET {charset name
 ```
 [MYSQL 공식문서 링크](https://dev.mysql.com/doc/mysql-g11n-excerpt/5.7/en/charset-conversion.html)
 <br>
+
 
 * character set만 지정해줘도 collation은 자동 설정이 되네요.
 <br>
