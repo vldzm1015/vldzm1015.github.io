@@ -2,7 +2,7 @@
 layout: post
 title:  "change the home directory for jupyter notebook(mac) 쥬피터 노트북 홈 변경"
 date:   2019-04-22 12:00:00
-categories: jupyter notebook
+categories: jupyter
 tags: jupyter notebook ipython home directory mac
 author: ehan831
 mathjax: true
