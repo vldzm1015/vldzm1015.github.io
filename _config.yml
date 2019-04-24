@@ -8,8 +8,9 @@
 # Site settings
 title: ehan831
 brief-intro: study note
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://blog.naver.com/ehan831" # the subpath of your site, e.g. /blog
 url: "https://ehan831.github.io" # the base hostname & protocol for your site
+timezone: Asia/Seoul
 
 permalink: /:year/:month/:day/:title/
 
@@ -18,23 +19,23 @@ twitter_username:
 facebook_username: 
 github_username:  ehan831
 email: ehan831@gmail.com
-weibo_username: 
-zhihu_username: 
-linkedIn_username: 
-dribbble_username:
+#weibo_username:
+#zhihu_username:
+#linkedIn_username:
+#dribbble_username:
 
 description_footer: footer！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
-duoshuo_shortname: #hygblog
+#duoshuo_shortname: #hygblog
 disqus_shortname: ehan831
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: 
+#baidu_tongji_id:
 google_analytics_id: UA-122918815-1
 
 # Build settings
@@ -43,6 +44,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+highlighter: rouge
 
 # port
 # port: 1234
