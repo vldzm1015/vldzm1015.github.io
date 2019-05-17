@@ -86,8 +86,8 @@ CREATE TABLE t1
         CHARACTER SET latin1
         COLLATE latin1_german1_ci
   );
-  
-ALTER TABLE t1 MODIFY col1 
+
+ALTER TABLE t1 MODIFY col1
   VARCHAR(5)
   CHARACTER SET latin1
   COLLATE latin1_swedish_ci;
@@ -104,4 +104,4 @@ SHOW CHARACTER SET;
 
 <img src="https://github.com/ehan831/ehan831.github.io/blob/master/assets/img/2019_04/cs3.png?raw=true">
 
-## 쨔쟌. 여기까지 했는데도 계속 문제가 발생한다면, character set 말고 다른 부분을 고민해봐야 될 차례!! 
+## 쨔쟌. 여기까지 했는데도 계속 문제가 발생한다면, character set 말고 다른 부분을 고민해봐야 될 차례!!
